@@ -1,0 +1,22 @@
+@import url("fonts.css");
+
+body {
+    background-color: rgb(55, 55, 55);
+}
+
+img[src="images/icon.png"] {
+    width: 64px;
+    aspect-ratio: 1 / 1;
+}
+
+span[id="header"] {
+    position: absolute;
+    top: 1.75%;
+    left: 5.125%;
+    font-size: 48px;
+    color: white;
+    font-family: "LXND";
+    user-select: none;
+    cursor: pointer;
+    letter-spacing: -5px;
+}
